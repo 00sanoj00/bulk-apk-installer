@@ -12,3 +12,7 @@ G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\M
 G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.csprojResolveAssemblyReference.cache
 G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\BetterFolderBrowser.dll
 G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\BetterFolderBrowser.xml
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\bulk apk installer.exe.manifest
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\bulk apk installer.application
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.exe.manifest
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.application

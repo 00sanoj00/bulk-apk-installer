@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("bulk apk installer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This makes it easy to install any number of apk files on your Android device, With one click you can easily install all the apk files in the folder provided by you")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Devil Developer")]
 [assembly: AssemblyProduct("bulk apk installer")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
