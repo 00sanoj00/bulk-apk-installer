@@ -171,7 +171,7 @@ namespace bulk_apk_installer
         {
             install_count = 0;
             BetterFolderBrowser bfb = new BetterFolderBrowser();
-            bfb.Title = "Choose any folder as the root folder...";
+            bfb.Title = "Choose any folder as the root folder.....";
 
             if (bfb.ShowDialog() == DialogResult.OK)
                 textBox1.Text = bfb.SelectedPath;
