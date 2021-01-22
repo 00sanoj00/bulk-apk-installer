@@ -38,7 +38,6 @@ namespace bulk_apk_installer
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
@@ -52,13 +51,13 @@ namespace bulk_apk_installer
             this.materialMultiLineTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialMultiLineTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialMultiLineTextBox1.Depth = 0;
-            this.materialMultiLineTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialMultiLineTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialMultiLineTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialMultiLineTextBox1.Hint = "";
-            this.materialMultiLineTextBox1.Location = new System.Drawing.Point(11, 290);
+            this.materialMultiLineTextBox1.Location = new System.Drawing.Point(11, 262);
             this.materialMultiLineTextBox1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialMultiLineTextBox1.Name = "materialMultiLineTextBox1";
-            this.materialMultiLineTextBox1.Size = new System.Drawing.Size(355, 387);
+            this.materialMultiLineTextBox1.Size = new System.Drawing.Size(355, 320);
             this.materialMultiLineTextBox1.TabIndex = 0;
             this.materialMultiLineTextBox1.Text = "";
             this.materialMultiLineTextBox1.TextChanged += new System.EventHandler(this.materialMultiLineTextBox1_TextChanged);
@@ -70,7 +69,7 @@ namespace bulk_apk_installer
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(11, 251);
+            this.button1.Location = new System.Drawing.Point(12, 223);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(355, 33);
             this.button1.TabIndex = 2;
@@ -81,11 +80,10 @@ namespace bulk_apk_installer
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(12, 93);
+            this.tabControl1.Location = new System.Drawing.Point(12, 100);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(358, 152);
+            this.tabControl1.Size = new System.Drawing.Size(358, 117);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -94,7 +92,7 @@ namespace bulk_apk_installer
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(350, 126);
+            this.tabPage1.Size = new System.Drawing.Size(350, 91);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Bulk APK";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -128,21 +126,12 @@ namespace bulk_apk_installer
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(53, 18);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(276, 33);
             this.textBox1.TabIndex = 4;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(350, 126);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Single APK";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -172,7 +161,7 @@ namespace bulk_apk_installer
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(379, 689);
+            this.ClientSize = new System.Drawing.Size(379, 594);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
@@ -204,7 +193,6 @@ namespace bulk_apk_installer
         private Button button1;
         private TabControl tabControl1;
         private TabPage tabPage1;
-        private TabPage tabPage2;
         private Label label1;
         private GroupBox groupBox1;
         private Button button2;

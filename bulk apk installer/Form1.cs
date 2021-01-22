@@ -131,12 +131,12 @@ namespace bulk_apk_installer
 
             if (a.Equals("No Device has connected to this PC"))
             {
-                MessageBox.Show("No Device has connected to this PC");
+                MessageBox.Show("No Device has connected to this PC, Please connect the device and press the refresh button", "Error..", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }else
             {
                 if (b.Equals(string.Empty))
                 {
-                    MessageBox.Show("Please select the folder containing the apk file");
+                    MessageBox.Show("Please select the folder containing the apk file", "Error..", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
@@ -146,7 +146,9 @@ namespace bulk_apk_installer
                     try
                     {
                         stdin.Write("\u0040echo off" + Environment.NewLine);
+                        stdin.Write("---------------------------------------------------------------" + Environment.NewLine + "-- Wait a minute the installation started --" + Environment.NewLine + "---------------------------------------------------------------" + Environment.NewLine);
                         stdin.Write(installcom + Environment.NewLine);
+                        
                     }
                     catch
                     {
@@ -169,6 +171,7 @@ namespace bulk_apk_installer
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            displayandcheckdev();
             install_count = 0;
             BetterFolderBrowser bfb = new BetterFolderBrowser();
             bfb.Title = "Choose any folder as the root folder.....";
@@ -214,32 +217,20 @@ namespace bulk_apk_installer
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-            
-
-            displaydevice();
-            string a = label1.Text;
-
-            if (a == "No Device has connected to this PC")
-            {
-            }
-            else
-            {
-                label1.ForeColor = System.Drawing.Color.Blue;
-            }
+            displayandcheckdev();
         }
         void progresstext()
         {
-            materialMultiLineTextBox1.AppendText("-------------------------------" + Environment.NewLine+ "--Build APK Installer--" + Environment.NewLine+ "--   Installed  "+install_count+" apk   --" + Environment.NewLine + "--------------------------------" + Environment.NewLine);
+            materialMultiLineTextBox1.AppendText("----------------------------------------------" + Environment.NewLine+ "-- Installed number of apk "+install_count+" --" + Environment.NewLine + "----------------------------------------------" + Environment.NewLine);
         }
         void loadtext()
         {
             materialMultiLineTextBox1.AppendText("..... (¯`v´¯)♥" + Environment.NewLine + ".......•.¸.•´" + Environment.NewLine + "....¸.•´" + Environment.NewLine + "... (" + Environment.NewLine + "☻/" + Environment.NewLine + "/▌♥♥" + Environment.NewLine + "/ \u005C ♥♥" + Environment.NewLine );
             materialMultiLineTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
-            materialMultiLineTextBox1.AppendText("Bulk APK Installer" + Environment.NewLine);
+            materialMultiLineTextBox1.AppendText("Bulk APK Installer v.1.0" + Environment.NewLine);
             materialMultiLineTextBox1.AppendText("By Sanoj Prabatb Jayathilaka" + Environment.NewLine);
             materialMultiLineTextBox1.AppendText("Github - github.com/00sanoj00" + Environment.NewLine);
-            materialMultiLineTextBox1.AppendText("Whatsapp - +94716474696");
+            materialMultiLineTextBox1.AppendText("Whatsapp - +94716474696" + Environment.NewLine);
             materialMultiLineTextBox1.AppendText("Facebook - fb.com/sanoj.jayathilaka1" + Environment.NewLine);
             materialMultiLineTextBox1.AppendText("-------------------------------------------------------------" + Environment.NewLine);
 
@@ -260,6 +251,19 @@ namespace bulk_apk_installer
             materialMultiLineTextBox1.Text = materialMultiLineTextBox1.Text.Replace("off", "");
             materialMultiLineTextBox1.Text = materialMultiLineTextBox1.Text.Replace("-r", "");
             materialMultiLineTextBox1.Text = materialMultiLineTextBox1.Text.Replace("\"%e\"", "");
+        }
+        void displayandcheckdev()
+        {
+            displaydevice();
+            string a = label1.Text;
+
+            if (a == "No Device has connected to this PC")
+            {
+            }
+            else
+            {
+                label1.ForeColor = System.Drawing.Color.Blue;
+            }
         }
 
     }
