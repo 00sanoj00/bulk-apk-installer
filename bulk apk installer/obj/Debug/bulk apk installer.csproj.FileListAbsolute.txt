@@ -1,0 +1,14 @@
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\bulk apk installer.exe.config
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\bulk apk installer.exe
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\bulk apk installer.pdb
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk_apk_installer.Form1.resources
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk_apk_installer.Properties.Resources.resources
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.csproj.GenerateResource.Cache
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.exe
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.pdb
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\SharpAdbClient.dll
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\SharpAdbClient.pdb
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\MaterialSkin.dll
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\obj\Debug\bulk apk installer.csprojResolveAssemblyReference.cache
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\BetterFolderBrowser.dll
+G:\D\Visual Studio Development\bulk apk installer\bulk apk installer\bin\Debug\BetterFolderBrowser.xml
